@@ -1,7 +1,7 @@
 # bookmarklets
 Productivity bookmarklets written in JavaScript 
 
-## Add deployment links to PRs
+## Bookmarklet 1: Add deployment links to PRs
 
 This bookmarklet modifies the "Files changed" page of a pull request. For each markdown file, it adds links to the  staging deployment of the file. 
 
