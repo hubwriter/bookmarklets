@@ -7,7 +7,7 @@ This bookmarklet modifies the "Files changed" page of a pull request. For each m
 
 Three links are added: dotcom / GHES / AE
 
-![Links added to a PR](bookmarklet-pr-links.png)
+<img src="bookmarklet-pr-links.png" width="120">
 
 Some of these links may get you a "page not found" if that version of the page doesn't exist (there's no way to tell from the information on the "Files changed" page).
 
