@@ -3,11 +3,7 @@ Productivity bookmarklets written in JavaScript
 
 ## Bookmarklet 1: Add deployment links to PRs
 
-This bookmarklet modifies the "Files changed" page of a pull request. For each markdown file, it adds links to the  staging deployment of the file. 
-
-Three links are added: dotcom / GHES / AE
-
-<img src="bookmarklet-pr-links.png" width="600">
+This bookmarklet modifies the "Files changed" page of a pull request. For each markdown file, it adds 3 links to the  staging deployments of the file. 
 
 Some of these links may get you a "page not found" if that version of the page doesn't exist (there's no way to tell from the information on the "Files changed" page).
 
