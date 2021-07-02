@@ -24,3 +24,9 @@ To use the bookmarklet:
 2. Go to the "Files changed" page. 
 3. Click the bookmarklet on your toolbar. 
 4. Click the appropriate link next to the file name. 
+
+### JavaScript source
+
+The code above is created by putting the original JavaScript through the bookmarklet creator here: https://chriszarate.github.io/bookmarkleter/
+
+You can find the original JavaScript here: https://github.com/hubwriter/bookmarklets/blob/main/bookmarklet-pr-links.js
