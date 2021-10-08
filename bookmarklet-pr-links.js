@@ -9,6 +9,8 @@ branch = branch.replace(/.*:/, ''); // Remove everything before a colon
 branch = branch.replace('/', ''); // Strip out all "/" characters
 if (repo === "docs-internal") {
   branch = branch.substring(0, 9); // Take just the 1st 9 characters
+} else if (repo === "docs") {
+  branch = branch.substring(0, 18); // Longer because the repo name is shorter
 }
 var url_start = "https://" + repo + "-" + pr_number + "--" + branch + ".herokuapp.com/en/";
 var url_dotcom = url_start + "free-pro-team@latest";
